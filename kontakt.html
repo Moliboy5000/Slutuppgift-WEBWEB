@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/navigation.css" type="text/css">
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Slutprojekt WEBWEB 1</title>
+  </head>
+  <body>
+    <h1><span>Roccos</span> Reseblogg</h1>
+
+<header>
+<section>
+<a href="#" id="logo" target="_blank">Resor, upplevelser, minnen</a>
+
+<label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+<input type="checkbox" id="toggle-1">
+
+<nav>
+<ul>
+  <li><a href="index.html">Hem</a></li>
+  <li><a href="om.html">Om</a></li>
+  <li><a href="kontakt.html">Kontakt</a></li>
+  <li><a href="legal.html">Legal information</a></li>
+  <li> <div class="dropdown">
+    <button class="dropbtn">Resedestinationer</button>
+    <div class="dropdown-content">
+      <a href="resa-europa.html">Europa</a>
+      <a href="#">Afrika</a>
+      <a href="#">Asien</a>
+        <a href="#">Nordamerika</a>
+          <a href="#">Sydamerika</a>
+            <a href="#">Oceanien</a>
+    </div>
+  </div>
+  <li> <div class="dropdown">
+    <button class="dropbtn">Maträtter</button>
+    <div class="dropdown-content">
+      <a href="#">Europa</a>
+      <a href="#">Afrika</a>
+      <a href="#">Asien</a>
+        <a href="#">Nordamerika</a>
+          <a href="#">Sydamerika</a>
+            <a href="#">Oceanien</a>
+  </div>
+</div>
+</ul>
+</nav>
+</section>
+</header>
+
+<section id="about" class="content">
+<h2>Kontakt</h2>
+<p>Jag är alltid öppen till nya idéer och feedback. Om du önskar förmedla något till mig får du jättegärna skicka ditt meddelande här så ska jag se till att svara så fort som jag kan.</p>
+</section>
+<div class="container">
+  <form>
+    <input type="text" id="fname" name="firstname" placeholder="Förnamn">
+    <input type="text" id="lname" name="lastname" placeholder="Efternamn">
+    <select id="country" name="country">
+      <option value="not-specified">Land...</option>
+      <option value="sweden">Sverige</option>
+      <option value="norway">Norge</option>
+      <option value="finland">Finland</option>
+      <option value="denmark">Danmark</option>
+      <option value="germany">Tyskland</option>
+      <option value="usa">USA</option>
+      <option value="other">Övrigt, vänligen specificera nedan.</option>
+    </select>
+    <textarea id="subject" name="subject" placeholder="Meddelande..." style="height:200px"> </textarea>
+
+  </form>
+
+  <button id="myBtn">Skicka</button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Tack för ditt intresse, jag ska se till att svara så fort som möjligt!</p>
+    </div>
+
+  </div>
+</div>
+<script src="scripts/popup.js"> </script>
+  </body>
+</html>
