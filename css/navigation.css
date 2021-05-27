@@ -78,7 +78,7 @@ nav ul li a:hover i {
 .toggle-menu {
 display: none;
 }
-.toggle-menu ul:active {
+.toggle-menu ul {
 display:table;
 width:25px;
 }
@@ -265,7 +265,7 @@ input[type=checkbox]:focus {
     display: inline-block;
      cursor: pointer;
  }
-.toggle-menu:hover ~ nav {
+.toggle-menu:active ~ nav {
   display:block;
 }
 
