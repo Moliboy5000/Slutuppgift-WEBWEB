@@ -305,7 +305,7 @@ img {
 }
 @media only screen and (max-width: 980px) {
 .content {
-  width: 80%;
+  width: 90%;
  }
 }
 @media screen and (max-width: 768px) {
@@ -328,10 +328,9 @@ h1 span {
 }
 
 @media only screen and (max-width: 480px) {
-section {max-width: 90%;}
+section {
+  max-width: 90%;
 }
-
-@media only screen and (max-width: 360px) {
 h1 {
 font-size: 20px;
   }
@@ -344,10 +343,4 @@ label {
 nav {
   top:47px;
  }
-}
-
-@media only screen and (max-width: 320px) {
-h1 {
-padding: 20px 0px;
-  }
 }
