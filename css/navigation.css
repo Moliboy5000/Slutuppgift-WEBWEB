@@ -230,7 +230,7 @@ width:100%;
  }
  @media only screen and (max-width: 1440px) {
  section {
-   max-width:95%;
+   max-width:90%;
   }
  }
 img {
@@ -305,7 +305,7 @@ img {
 }
 @media only screen and (max-width: 980px) {
 .content {
-  width: 90%;
+  width: 80%;
  }
 }
 @media screen and (max-width: 768px) {
