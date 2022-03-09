@@ -8,7 +8,7 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical
+  resize: vertical;
 }
 
 #myBtn {
@@ -17,17 +17,17 @@ textarea {
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 #myBtn:hover {
-  background-color: #4c6c8c
+  background-color: #4c6c8c;
 }
 
 .container {
   border-radius: 5px;
   background-color: #fff;
-  padding: 20px
+  padding: 20px;
 }
 
 .modal {
@@ -41,7 +41,7 @@ textarea {
   height: 100%;
   overflow: auto;
   background-color: #000;
-  background-color: rgba(0, 0, 0, .4)
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .modal-content {
@@ -49,19 +49,19 @@ textarea {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%
+  width: 80%;
 }
 
 .close {
   color: #aaa;
   float: right;
   font-size: 28px;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .close:focus,
 .close:hover {
   color: #000;
   text-decoration: none;
-  cursor: pointer
+  cursor: pointer;
 }
